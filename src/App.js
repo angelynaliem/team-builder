@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import ReactDOM from "react-dom";
 import data from "./data";
+import MembersList from "./Components/MembersList";
+// import NoteForm from "./components/NoteForm";
 import logo from './logo.svg';
 import './App.css';
 
@@ -47,8 +49,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
        <h1>Our Members</h1>
-       {/* // <NoteForm addNewNote={addNewNote} title="Default title" />
-      // <Notes notes={notes} /> */}
+       {/* // <NoteForm addNewNote={addNewNote} title="Default title" />*/}
+      <MembersList members={members} />
       </header>
     </div>
   );
