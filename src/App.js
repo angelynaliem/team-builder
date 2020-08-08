@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ReactDOM from "react-dom";
 import data from "./data";
 import MembersList from "./Components/MembersList";
-// import NoteForm from "./components/NoteForm";
+import Form from "./Components/Form";
 import logo from './logo.svg';
 import './App.css';
 
@@ -49,7 +49,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
        <h1>Our Members</h1>
-       {/* // <NoteForm addNewNote={addNewNote} title="Default title" />*/}
+       <Form addNewMember={addNewMember} name="Default name" />
       <MembersList members={members} />
       </header>
     </div>
