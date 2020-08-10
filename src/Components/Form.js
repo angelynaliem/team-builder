@@ -19,7 +19,7 @@ const Form = (props) => {
   console.log("member", member);
 
   return (
-    <form onSubmit={submitForm}>
+    <form onSubmit={submitForm} className="form">
   
       <label htmlFor="name">Name</label>
       <input
