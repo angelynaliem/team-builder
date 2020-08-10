@@ -1,5 +1,7 @@
 import React from "react";
 
+// The MembersList component maps through the 'members' data to display it as a list on the screen.
+
 const MembersList = props => {
   return (
     <div>
